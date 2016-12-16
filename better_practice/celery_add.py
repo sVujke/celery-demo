@@ -7,4 +7,4 @@ def add(a, b):
 
 def add_listed(list):
 	for i in list:
-		add.delay(i, random.random(0,10))
+		add.delay(i, random.randint(0,10))
