@@ -7,4 +7,4 @@ def add(a, b):
 
 def add_func(listn):
 	for i in listn:
-		add.delay(i, random.randint(0,10)
+		add.delay(i, random.randint(0,10))
